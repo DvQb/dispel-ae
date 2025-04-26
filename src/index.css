@@ -2,6 +2,10 @@
 
 @layer {
   body {
-    @apply max-w-[1920px];
+    @apply max-w-[1920px] bg-[#1a1a1a] font-primary;
   }
+}
+
+@theme {
+  --font-primary: "IBM Plex Mono", "monospace";
 }
